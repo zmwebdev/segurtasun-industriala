@@ -19,7 +19,7 @@ Siemens S7-1200 PLCa eta HMI instalatu eta konfiguratu. Argia itzali/Piztu aplik
 
 ### ModBUS
 
-Aurreko ariketetan ModBUS trafikoa aztertu eta aldatzen saiatu. Segurtasunaren aldetik ondorioak atera.
+Aurreko ariketetan ModBUS trafikoa aztertu eta protokoloaren arkitektura ulertu. Aldatzen saiatu. Segurtasunaren aldetik ondorioak atera.
 
 
 
