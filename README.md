@@ -1,0 +1,1 @@
+# segurtasun-industriala
