@@ -10,6 +10,12 @@ Gure fabrikari, WIFI sarea ere gehituko diogu. Baita ERP bat. VNC aukera ere kan
 
 Lehenengo fase honetan segurtasuna kontutan hartu gabeko diseinua egingo da. Erabilgarritasunari begira aukerak gehituko dira. 
 
+Erabiliko dugun HW: 
+- PLCak egiteko Siemens s7-1200(x2) eta Raspberry Pi (OpenPLC erabiliz simulatuz)
+- HMIak egiteko Siemens(x2) eta HMI simulatzaileak. 
+- "makinak", arduino edo raspberry pi-ekin simulatuko dira. 
+- Sensore eta aktuadoreak
+
 ### Open PLC
 
 - PLC
@@ -29,6 +35,10 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 - HMI
 
 Siemens S7-1200 PLCa eta HMI instalatu eta konfiguratu. Argia itzali/Piztu aplikazioa egin.
+
+### Siemens PLC (24V) eta Raspberry Pi-Arduino (5V)
+
+Gailuen arteko lotura. Nola pasa batetik bestera seinaleak.
 
 ### Node RED
 
