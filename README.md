@@ -14,7 +14,9 @@ Industria bateko fabrika simulatuko da. Bere PLC, HMI, sensore (tenperatura, ...
 PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, nodemcu, Linux,... erabiliz egin daiteke. Programa sinple bat egin: Led bat piztu/itzali.
 
 1 - https://www.openplcproject.com/getting-started-rpi
+
 2 - PLC programa egin: https://www.openplcproject.com/plcopen-editor
+
 3 - HMI bat simulatu: https://www.openplcproject.com/reference-installing-scadabr
 
 ### Siemens
