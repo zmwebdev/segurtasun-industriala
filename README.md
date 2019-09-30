@@ -36,9 +36,7 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 
 Siemens S7-1200 PLCa eta HMI instalatu eta konfiguratu. Argia itzali/Piztu aplikazioa egin.
 
-### Siemens PLC (24V) eta Raspberry Pi-Arduino (5V)
-
-Gailuen arteko lotura. Nola pasa batetik bestera seinaleak.
+- Siemens PLC (24V) eta Raspberry Pi-Arduino (5V): Gailuen arteko lotura. Nola pasa batetik bestera seinaleak.
 
 ### Node RED
 
