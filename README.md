@@ -21,14 +21,25 @@ Erabiliko dugun HW:
 
 - PLC
 - HMI
+- https://www.openplcproject.com/reference
 
-PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, nodemcu, Linux,... erabiliz egin daiteke. Programa sinple bat egin: Led bat piztu/itzali.
+PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, nodemcu, Linux,... erabiliz egin daiteke. 
+
+#### Programa sinple bat egin: Led bat piztu/itzali.
 
 1 - https://www.openplcproject.com/getting-started-rpi
+
+- Raspbian Buster Lite instalatu. IP static eman eman eta ssh bidez konektatu ``` $sudo raspi-conf``` erabiliz. Hemendik aurrera gure PLCak sare konexioa eta argindarra bakarrik izango ditu eta ssh bidez konektatuko gara. ```$ssh pi@IP```
 
 2 - PLC programa egin: https://www.openplcproject.com/plcopen-editor
 
 3 - HMI bat simulatu: https://www.openplcproject.com/reference-installing-scadabr
+
+#### Programa konplexuagoak egin
+
+#### PLC simulatuak sare batean konektatu eta elkarrekintza
+
+PLC batetik beste PLC bat kontrolatu (nola? modbus?) 
 
 ### Siemens
 
