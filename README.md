@@ -76,8 +76,7 @@ SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokol
 
 ### PLC-en segurtasuna. 
 
-Siemens, simulatuak (default user/password: SSH is enabled and the default password for the 'pi' user has not been changed.
-This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.)
+Siemens, PLC simulatuak OpenPLC/raspberry pi (raspberry pi: default user/password: SSH is enabled and the default password for the 'pi' user has not been changed.This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password. /// edo OpenPLC: This means that the first thing you must do after logging in for the first time is change the default username and password!)
 
 ## 3. Fasea: Smart Factory
 
