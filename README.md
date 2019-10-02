@@ -22,6 +22,7 @@ Erabiliko dugun HW:
 - PLC
 - HMI
 - https://www.openplcproject.com/reference
+- https://openplc.discussion.community/post/my-first-project-9671952
 
 PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, nodemcu, Linux,... erabiliz egin daiteke. 
 
@@ -39,7 +40,11 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 
 #### PLC simulatuak sare batean konektatu eta elkarrekintza
 
-PLC batetik beste PLC bat kontrolatu (nola? modbus?) 
+PLC batetik beste PLC bat kontrolatu (nola? modbus?) 'slave device' MTU, IP
+
+- https://www.openplcproject.com/getting-started-modbus-io
+- https://www.openplcproject.com/getting-started-esp8266
+
 
 ### Siemens
 
