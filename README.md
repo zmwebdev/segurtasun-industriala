@@ -34,11 +34,17 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 
 2 - PLC programa egin: https://www.openplcproject.com/plcopen-editor
 
-- https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/08/09/trying-out-openplc-on-a-raspberry-pi
+https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/08/09/trying-out-openplc-on-a-raspberry-pi
+
+**Hello World:**
 
 ![openplc-raspberry-helloworld-wire-schema](https://user-images.githubusercontent.com/8669110/66259161-07a39e80-e7ae-11e9-8061-9b612423eb1f.png)
-
 ![openplc-raspberry-helloworld-LD](https://user-images.githubusercontent.com/8669110/66259162-07a39e80-e7ae-11e9-9a49-17713badc2df.png)
+
+**Hello World (Sarrera %X0.2 erabiliz. Kontuz! zirkuitua aurrekoaren ezberdinba da!!):**
+
+![openplc_hello_world_lader_program2-circuit](https://user-images.githubusercontent.com/8669110/66260725-cf5a8b00-e7c2-11e9-858f-803b67317ab7.png)
+![openplc_hello_world_lader_program2](https://user-images.githubusercontent.com/8669110/66260724-cec1f480-e7c2-11e9-822c-38dcbd4d9327.png)
 
 3 - HMI bat simulatu: https://www.openplcproject.com/reference-installing-scadabr
 
