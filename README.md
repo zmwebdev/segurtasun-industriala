@@ -28,13 +28,14 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 
 #### Programa sinple bat egin: Led bat piztu/itzali.
 
-**1 - getting-started-rpi:**
+##### 1 - getting-started-rpi:
 
 - https://www.openplcproject.com/getting-started-rpi
 
 - Raspbian Buster Lite instalatu. IP static eman eman (https://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address, https://wiki.debian.org/NetworkConfiguration) eta ssh bidez konektatu ``` $sudo raspi-conf``` erabiliz. Hemendik aurrera gure PLCak sare konexioa eta argindarra bakarrik izango ditu eta ssh bidez konektatuko gara. ```$ssh pi@IP```
 
-**2 - PLC programa egin:**
+##### 2 - PLC programa egin:
+
 https://www.openplcproject.com/plcopen-editor
 
 https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/08/09/trying-out-openplc-on-a-raspberry-pi
@@ -49,7 +50,7 @@ https://www.element14.com/community/community/applications/industrial-automation
 ![openplc_hello_world_lader_program2-circuit](https://user-images.githubusercontent.com/8669110/66260725-cf5a8b00-e7c2-11e9-858f-803b67317ab7.png)
 ![openplc_hello_world_lader_program2](https://user-images.githubusercontent.com/8669110/66260724-cec1f480-e7c2-11e9-822c-38dcbd4d9327.png)
 
-**3 - HMI bat simulatu: **
+##### 3 - HMI bat simulatu:
 
 https://www.openplcproject.com/reference-installing-scadabr
 
