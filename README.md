@@ -36,6 +36,10 @@ PLC eta HMI bat simulatu https://www.openplcproject.com. Raspberry Pi, Arduino, 
 
 - https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/08/09/trying-out-openplc-on-a-raspberry-pi
 
+![openplc-raspberry-helloworld-wire-schema](https://user-images.githubusercontent.com/8669110/66259161-07a39e80-e7ae-11e9-8061-9b612423eb1f.png)
+
+![openplc-raspberry-helloworld-LD](https://user-images.githubusercontent.com/8669110/66259162-07a39e80-e7ae-11e9-9a49-17713badc2df.png)
+
 3 - HMI bat simulatu: https://www.openplcproject.com/reference-installing-scadabr
 
 #### Programa konplexuagoak egin
