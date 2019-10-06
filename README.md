@@ -66,6 +66,18 @@ PLC batetik beste PLC bat kontrolatu (nola? modbus?) 'slave device' MTU, IP, Sof
 - https://www.openplcproject.com/getting-started-modbus-io
 - https://www.openplcproject.com/getting-started-esp8266
 
+##### Beste OpenPLC bat instalatu
+
+port number aldatu (makina berdinean bat baino gehiago instalatu behar badira)
+```
+Edit /webserver/ webserver.py line 2213 and change
+
+app.run(debug=False, host='0.0.0.0', threaded=True, port=8080)
+
+to
+
+app.run(debug=False, host='0.0.0.0', threaded=True, port=[whatever-port-you'd-like])
+```
 
 ### Siemens
 
