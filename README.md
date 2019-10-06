@@ -40,13 +40,13 @@ https://www.element14.com/community/community/applications/industrial-automation
 
 **Hello World:**
 
-![openplc-raspberry-helloworld-wire-schema](https://user-images.githubusercontent.com/8669110/66259161-07a39e80-e7ae-11e9-8061-9b612423eb1f.png)
-![openplc-raspberry-helloworld-LD](https://user-images.githubusercontent.com/8669110/66259162-07a39e80-e7ae-11e9-9a49-17713badc2df.png)
+![openplc-raspberry-helloworld-wire-schema](img/openplc-raspberry-helloworld-wire-schema.png)
+![openplc-raspberry-helloworld-LD](img/openplc-raspberry-helloworld-LD.png)
 
 **Hello World (Sarrera %X0.2 erabiliz. Kontuz! zirkuitua aurrekoaren ezberdinba da!!):**
 
-![openplc_hello_world_lader_program2-circuit](https://user-images.githubusercontent.com/8669110/66260725-cf5a8b00-e7c2-11e9-858f-803b67317ab7.png)
-![openplc_hello_world_lader_program2](https://user-images.githubusercontent.com/8669110/66260724-cec1f480-e7c2-11e9-822c-38dcbd4d9327.png)
+![openplc_hello_world_lader_program2-circuit]img/openplc_hello_world_lader_program2-circuit.png)
+![openplc_hello_world_lader_program2](img/openplc_hello_world_lader_program2.png)
 
 ##### 3 - HMI bat simulatu:
 
