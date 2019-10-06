@@ -1,5 +1,11 @@
 # segurtasun-industriala
 
+## kontzeptuak
+
+- https://en.wikipedia.org/wiki/Modbus
+- http://www.modbus.org
+- https://en.wikipedia.org/wiki/SCADA
+
 ## 1. Fasea: Fabrika sortu
 
 Industria bateko fabrika simulatuko da. Bere PLC, HMI, sensore (tenperatura, ...), aktuadore (argi-led, pultsadore). Adibidez, PLC batek piezak egiten dituen makina bat kontrolatuko du, geldirik dagoenean argi gorri bat piztuko du, lanean dagoenean argi berdea eta pieza amaitzen duenean seinale bat (beste argi bat izan daiteke, edo buzz bat, ...). Beste PLC batek tenperatura eta humedadea kontrolatuko ditu (slave device: nodemcu bat izan daiteke). HMIak egongo dira prozesu guztiaren egoera azaltzeko (argien egoera, tenperatura, ) eta baita ere makinak gelditzeko eta hasieratzeko. Beste PLC batek piezak egiteko lehengaien egoera kontrolatuko du, zenbat dauden. Kamarak, RFID irakurgailuak, BLE Bluetooth Low Energy device, Alexa(https://developer.amazon.com/es/docs/alexa-voice-service/set-up-raspberry-pi.html), echo(https://www.makeuseof.com/tag/diy-google-home-assistant-raspberry-pi/)... ere integratu daitezke. Fabrikak sosrtzen dituen datuak gordeko dira ondoren analizatu ahal izateko eta hauetatik AI erabiliz ikasteko. Aukera dado ere informazio hauek Cloud-ean gordetzeko (MQTT erabiliz datuak mugituz).
@@ -104,10 +110,6 @@ Node red erabiliz datuak jaso (tenperatura, ...) eta data-base batean gorde
 Lehenengo fasean garatu dugun fabrikaren segurtasuna aztertuko da eta soluzioak inplementatuko dira. ModBUS, SCADA, segmentazioa, TLS, OPC-UA, WIFI, MQTT, ...
 
 ### SCADA. ModBUS. Segurtasuna
-
-- ModBUS: https://en.wikipedia.org/wiki/Modbus
-- http://www.modbus.org
-- https://en.wikipedia.org/wiki/SCADA
 
 SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokoloaren arkitektura ulertu. Aldatzen saiatu. Segurtasunaren aldetik ondorioak atera.
 
