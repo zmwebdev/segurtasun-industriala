@@ -45,7 +45,7 @@ https://www.element14.com/community/community/applications/industrial-automation
 
 **Hello World (Sarrera %X0.2 erabiliz. Kontuz! zirkuitua aurrekoaren ezberdinba da!!):**
 
-![openplc_hello_world_lader_program2-circuit]img/openplc_hello_world_lader_program2-circuit.png)
+![openplc_hello_world_lader_program2-circuit](img/openplc_hello_world_lader_program2-circuit.png)
 ![openplc_hello_world_lader_program2](img/openplc_hello_world_lader_program2.png)
 
 ##### 3 - HMI bat simulatu:
