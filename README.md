@@ -64,6 +64,8 @@ https://www.openplcproject.com/reference-installing-scadabr
 
 #### Programa konplexuagoak egin
 
+![OpenPLC_ariketak_simpleak.docx.pdf](plc-ariketak/OpenPLC_ariketak_simpleak.docx.pdf)
+
 1 - Bi botoi. Batek piztu besteak itzaldu.
 
 2 - Botoi berdinarekin, itzaldu eta piztu
