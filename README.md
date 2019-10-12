@@ -58,6 +58,7 @@ https://www.element14.com/community/community/applications/industrial-automation
 ![openplc_hello_world_lader_program2](img/openplc_hello_world_lader_program2.png)
 
 **led piztu**
+
 led-piztu-zirkuitoa             |  led-piztu-eskema
 :-------------------------:|:-------------------------:
 ![led-piztu-zirkuitoa](img/led-botoia-plc-zirkuitoa.jpg)  |  ![led-piztu-eskema](img/led-botoia-plc-eskema.jpg)
