@@ -135,6 +135,9 @@ SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokol
 1  - OpenPLC (raspberry pi) botoi-led sistemari ModBUS bezero bat erabiliz LED piztu/itzali:
 * ModBUS protokoloa berrikusi. TCP/IP. 502 portua
 * ModBUS bezero bat erabiliz konexio bat egin PLCarekin eta wireshark erabiliz 502 portua aztertu
+    * https://sourceforge.net/projects/qmodmaster/
+    * https://pymodbus.readthedocs.io/en/latest/readme.html
+
 * ModBUS bezeroarekin LED-a piztu/itzali
 
 https://openplc.discussion.community/post/walk-through-of-hello-world-8461363?&trail=15
