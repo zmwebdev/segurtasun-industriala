@@ -130,6 +130,14 @@ Lehenengo fasean garatu dugun fabrikaren segurtasuna aztertuko da eta soluzioak 
 SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokoloaren arkitektura ulertu. Aldatzen saiatu. Segurtasunaren aldetik ondorioak atera.
 
 
+#### Ariketa
+
+OpenPLC (raspberry pi) botoi-led sistemari ModBUS bezero bat erabiliz LED piztu/itzali:
+
+1 - ModBUS protokoloa berrikusi. TCP/IP. 502 portua
+2 - ModBUS bezero bat erabiliz konexio bat egin PLCarekin eta wireshark erabiliz 502 portua aztertu
+3 - Ondorioak atera
+
 ### PLC-en segurtasuna. 
 
 Siemens, PLC simulatuak OpenPLC/raspberry pi (raspberry pi: default user/password: SSH is enabled and the default password for the 'pi' user has not been changed.This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password. /// edo OpenPLC: This means that the first thing you must do after logging in for the first time is change the default username and password!)
