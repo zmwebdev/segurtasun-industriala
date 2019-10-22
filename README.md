@@ -79,9 +79,6 @@ https://www.openplcproject.com/reference-installing-scadabr
 
 2 - Botoi berdinarekin, itzaldu eta piztu
 
-https://openplc.discussion.community/post/walk-through-of-hello-world-8461363?&trail=15
->One thing to note is that, if you look at the table, you will see that you can't write to inputs, which mean you can't change the value of the inputs. This is a definition of the Modbus protocol. Therefore, in the hello world example, you won't be able to change the state of the button because it is located in an input area (%IX0.0). To actually control the button, you will have to move it to an output address (can be %QX0.1 for example). This will not have any practical effect in your software besides the fact that you will be able to actually write, or force, the state of the button using Modbus
-
 #### PLC simulatuak sare batean konektatu eta elkarrekintza
 
 PLC batetik beste PLC bat kontrolatu (nola? modbus?) 'slave device' MTU, IP, Software(linux, windows), 
@@ -138,6 +135,11 @@ SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokol
 1  - OpenPLC (raspberry pi) botoi-led sistemari ModBUS bezero bat erabiliz LED piztu/itzali:
 * ModBUS protokoloa berrikusi. TCP/IP. 502 portua
 * ModBUS bezero bat erabiliz konexio bat egin PLCarekin eta wireshark erabiliz 502 portua aztertu
+* ModBUS bezeroarekin LED-a piztu/itzali
+
+https://openplc.discussion.community/post/walk-through-of-hello-world-8461363?&trail=15
+>One thing to note is that, if you look at the table, you will see that you can't write to inputs, which mean you can't change the value of the inputs. This is a definition of the Modbus protocol. Therefore, in the hello world example, you won't be able to change the state of the button because it is located in an input area (%IX0.0). To actually control the button, you will have to move it to an output address (can be %QX0.1 for example). This will not have any practical effect in your software besides the fact that you will be able to actually write, or force, the state of the button using Modbus
+
 * Ondorioak atera
 
 ### PLC-en segurtasuna. 
