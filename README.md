@@ -150,7 +150,7 @@ Foro honetan ModBUS-en %IX sarrerak ezin dira aldatu programaren logikaren kontr
 
 Openplc eta qModmaster     |  Openplc editor
 :-------------------------:|:-------------------------:
-![openplc-led-piztu-itzali](img/ 	openplc_qmodmaster_led_piztu_itzali_QX00_QX01_2.png)  |  ![openplc-editor-led-piztu-itzali](img/ 	openplceditor-led-piztu_itzali_QX00_QX01.png)
+![openplc-led-piztu-itzali](img/openplc_qmodmaster_led_piztu_itzali_QX00_QX01_2.png)  |  ![openplc-editor-led-piztu-itzali](img/openplceditor-led-piztu_itzali_QX00_QX01.png)
 
 ### PLC-en segurtasuna. 
 
