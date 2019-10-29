@@ -146,6 +146,12 @@ Foro honetan ModBUS-en %IX sarrerak ezin dira aldatu programaren logikaren kontr
 
 * Ondorioak atera
 
+* irudiak
+
+Openplc eta qModmaster     |  Openplc editor
+:-------------------------:|:-------------------------:
+![openplc-led-piztu-itzali](img/ 	openplc_qmodmaster_led_piztu_itzali_QX00_QX01_2.png)  |  ![openplc-editor-led-piztu-itzali](img/ 	openplceditor-led-piztu_itzali_QX00_QX01.png)
+
 ### PLC-en segurtasuna. 
 
 Siemens, PLC simulatuak OpenPLC/raspberry pi (raspberry pi: default user/password: SSH is enabled and the default password for the 'pi' user has not been changed.This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password. /// edo OpenPLC: This means that the first thing you must do after logging in for the first time is change the default username and password!)
