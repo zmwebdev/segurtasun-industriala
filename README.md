@@ -103,12 +103,22 @@ app.run(debug=False, host='0.0.0.0', threaded=True, port=[whatever-port-you'd-li
 
 ### Siemens
 
-- S7-1200 PLC
+- S7-1200 PLC. CPU 1212C AC/DC/Rly 6ES7 212-1HE40-0XB0 v4.2
 - HMI
 
-Siemens S7-1200 PLCa eta HMI instalatu eta konfiguratu. Argia itzali/Piztu aplikazioa egin.
+Ariketak:
+ * Siemens S7-1200 PLCa eta HMI instalatu eta konfiguratu. Argia itzali/Piztu aplikazioa egin.
+ * Siemens PLC (24V) eta Raspberry Pi-Arduino (5V): Gailuen arteko lotura. Nola pasa batetik bestera seinaleak.
+ 
+#### TIA Portal
 
-- Siemens PLC (24V) eta Raspberry Pi-Arduino (5V): Gailuen arteko lotura. Nola pasa batetik bestera seinaleak.
+* New Project
+* Add new device (S7-1200 PLC. CPU 1212C AC/DC/Rly 6ES7 212-1HE40-0XB0 v4.2)
+* (PLC_1) Device configuration -> PROFINET interface -> Ethernet addresses -> (add new subnet) PN/IE_1; (IP Protocol) ip/mask
+* (PLC_1) Device configuration -> Protection & Security -> (connection mechanisms) Permit access with PUT/GET ? (aztertu)
+* (menu) online -> simulation -> start
+
+
 
 ### Node RED
 
