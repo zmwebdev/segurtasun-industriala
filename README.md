@@ -142,3 +142,10 @@ Foro honetan ModBUS-en %IX sarrerak ezin dira aldatu programaren logikaren kontr
 
 Smart Factory baten proposamena, segurtasuna oinarritzat hartuta fabrika adimendu bat sortzea. Distributed secured factory using Blockchain.
 
+### 4. HoneyPot
+
+- https://www.incibe-cert.es/blog/guia-implantacion-honeypot-industrial
+
+[incibe-cert_guia_implantacion_honeypot_industrial.pdf](doc/incibe-cert_guia_implantacion_honeypot_industrial.pdf)
+
+- 
