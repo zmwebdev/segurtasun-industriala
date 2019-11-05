@@ -130,13 +130,37 @@ Lehenengo fasean garatu dugun fabrikaren segurtasuna aztertuko da eta soluzioak 
 SCADA eta ModBUS ulertu. Aurreko ariketetan ModBUS trafikoa aztertu eta protokoloaren arkitektura ulertu. Aldatzen saiatu. Segurtasunaren aldetik ondorioak atera.
 
 
+#### Ariketa
+
+1  - OpenPLC (raspberry pi) botoi-led sistemari ModBUS bezero bat erabiliz LED piztu/itzali:
+* ModBUS protokoloa berrikusi. TCP/IP. 502 portua
+* ModBUS bezero bat erabiliz konexio bat egin PLCarekin eta wireshark erabiliz 502 portua aztertu
+    * https://sourceforge.net/projects/qmodmaster/
+    * https://pymodbus.readthedocs.io/en/latest/readme.html
+
+* ModBUS bezeroarekin LED-a piztu/itzali
+
+Foro honetan ModBUS-en %IX sarrerak ezin dira aldatu programaren logikaren kontra. Baina sarrera hau %QX batean jarriz gero bai. horrela kanpotik aldatzeko aukera dago: - https://openplc.discussion.community/post/walk-through-of-hello-world-8461363?&trail=15
+
+>One thing to note is that, if you look at the table, you will see that you can't write to inputs, which mean you can't change the value of the inputs. This is a definition of the Modbus protocol. Therefore, in the hello world example, you won't be able to change the state of the button because it is located in an input area (%IX0.0). To actually control the button, you will have to move it to an output address (can be %QX0.1 for example). This will not have any practical effect in your software besides the fact that you will be able to actually write, or force, the state of the button using Modbus
+
+Gogoratu: 
+
+ > a single-bit physical output is called a coil, and a single-bit physical input is called a discrete input or a contact
+
+* Ondorioak atera
+
+* irudiak
+
+Openplc eta qModmaster     |  Openplc editor
+:-------------------------:|:-------------------------:
+![openplc-led-piztu-itzali](img/openplc_qmodmaster_led_piztu_itzali_QX00_QX01_2.png)  |  ![openplc-editor-led-piztu-itzali](img/openplceditor-led-piztu_itzali_QX00_QX01.png)
+
 ### PLC-en segurtasuna. 
 
 Siemens, PLC simulatuak OpenPLC/raspberry pi (raspberry pi: default user/password: SSH is enabled and the default password for the 'pi' user has not been changed.This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password. /// edo OpenPLC: This means that the first thing you must do after logging in for the first time is change the default username and password!)
 
 ModBus: ```nmap -sS -T3 --top-ports 3000 167.99.132.140``` begiratu ITS kurtsoa.
-
-Foro honetan ModBUS-en %IX sarrerak ezin dira aldatu programaren logikaren kontra. Baina sarrera hau %QX batean jarriz gero bai. horrela kanpotik aldatzeko aukera dago: - https://openplc.discussion.community/post/walk-through-of-hello-world-8461363?&trail=15
 
 ## 3. Fasea: Smart Factory
 
