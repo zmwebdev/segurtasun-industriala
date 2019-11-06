@@ -118,6 +118,12 @@ Ariketak:
 * (PLC_1) Device configuration -> Protection & Security -> (connection mechanisms) Permit access with PUT/GET ? (aztertu)
 * (menu) online -> simulation -> start
 
+#### S7. Profinet
+- http://snap7.sourceforge.net/
+- https://python-snap7.readthedocs.io/en/latest/
+- 
+#### Wireshark erabiliz
+Wireshark erabiliz profinet - S7 protokoloa aztertu. https://wiki.wireshark.org/S7comm
 
 
 ### Node RED
