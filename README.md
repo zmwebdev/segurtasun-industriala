@@ -132,7 +132,22 @@ TIA portal erabiliz siemens-eko HMI programatu
 
 ### Node RED. HMI
 - https://nodered.org
+- https://nodered.org/docs/getting-started/raspberrypi
 - https://flows.nodered.org/node/node-red-contrib-modbus
+
+Raspberry pi:
+```
+## https://nodered.org/docs/getting-started/raspberrypi
+
+$ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+$ sudo systemctl status nodered.service
+$ sudo systemctl start nodered.service
+http://[IP]:1880
+
+## https://flows.nodered.org/node/node-red-contrib-modbus
+$ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
+
+```
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
