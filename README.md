@@ -136,9 +136,12 @@ TIA portal erabiliz siemens-eko HMI programatu
 - https://flows.nodered.org/node/node-red-contrib-modbus
 - https://github.com/BiancoRoyal/node-red-contrib-modbus
 - https://flows.nodered.org/node/node-red-contrib-openplc
+- https://flows.nodered.org/node/node-red-dashboard
 
-Tutorial bat:
+Tutorial batzuk:
 - https://www.youtube.com/watch?v=nN9SJfK0iIo
+- https://www.youtube.com/watch?v=M0Mjo0J1X_Q, https://www.youtube.com/watch?v=UKv4_jvPtr4 
+- https://www.youtube.com/watch?v=FCfmWnxQkoc
 
 Raspberry pi:
 ```
