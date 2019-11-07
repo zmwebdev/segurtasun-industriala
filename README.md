@@ -123,7 +123,9 @@ Ariketak:
 - https://python-snap7.readthedocs.io/en/latest/
 - 
 #### Wireshark erabiliz
-Wireshark erabiliz profinet - S7 protokoloa aztertu. https://wiki.wireshark.org/S7comm
+Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren dll-a instalatu behar da https://sourceforge.net/projects/s7commwireshark/. .dll fitxategian "Wireshark\plugins\3.0\epan". ondoren filtroetan "s7comm-plus"
+
+- https://wiki.wireshark.org/S7comm
 
 #### Siemens HMI
 TIA portal erabiliz siemens-eko HMI programatu
