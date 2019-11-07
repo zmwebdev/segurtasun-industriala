@@ -135,6 +135,9 @@ TIA portal erabiliz siemens-eko HMI programatu
 - https://nodered.org/docs/getting-started/raspberrypi
 - https://flows.nodered.org/node/node-red-contrib-modbus
 
+Tutorial bat:
+- https://www.youtube.com/watch?v=nN9SJfK0iIo
+
 Raspberry pi:
 ```
 ## https://nodered.org/docs/getting-started/raspberrypi
