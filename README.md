@@ -125,10 +125,13 @@ Ariketak:
 #### Wireshark erabiliz
 Wireshark erabiliz profinet - S7 protokoloa aztertu. https://wiki.wireshark.org/S7comm
 
+#### Siemens HMI
+TIA portal erabiliz siemens-eko HMI programatu
 
-### Node RED
+### Node RED. HMI
+https://nodered.org
 
-Node red erabiliz datuak jaso (tenperatura, ...) eta data-base batean gorde
+Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
 ### OPC-UA
 
