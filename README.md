@@ -126,6 +126,9 @@ Ariketak:
 Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren dll-a instalatu behar da https://sourceforge.net/projects/s7commwireshark/. .dll fitxategian "Wireshark\plugins\3.0\epan". ondoren filtroetan "s7comm-plus"
 
 - https://wiki.wireshark.org/S7comm
+- s7comm-plus kaptura PLC-a piztutzeko agindua: https://github.com/zmwebdev/segurtasun-industriala/blob/master/files/profinet-on-s7complus.pcapng
+
+![wireshark-s7com-pluss](img/wireshark-s7complus.png)
 
 #### Siemens HMI
 TIA portal erabiliz siemens-eko HMI programatu
