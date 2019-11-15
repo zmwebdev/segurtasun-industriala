@@ -67,6 +67,7 @@ led-piztu-zirkuitoa             |  led-piztu-eskema
 
 
 ##### 3 - HMI bat simulatu:
+TIA Portal (ikusi beherago) erabiliz edo Beste aukerak:
 
 https://www.openplcproject.com/reference-installing-scadabr
 
@@ -131,7 +132,9 @@ Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren d
 ![wireshark-s7com-pluss](img/wireshark-s7complus.png)
 
 #### Siemens HMI
-TIA portal erabiliz siemens-eko HMI programatu
+TIA portal erabiliz siemens-eko HMI programatu:
+- https://www.youtube.com/watch?v=_y7Sj6GHsGA
+- https://www.youtube.com/watch?v=DLqzIJOi8Z4
 
 ### Node RED. HMI
 - https://nodered.org
