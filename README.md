@@ -169,6 +169,10 @@ Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
 ### Elastic search. Kibana. 
 
+https://www.elastic.co/what-is/elk-stack
+
+### IoT-Cloud MQTT
+
 ### ERP
 
 
