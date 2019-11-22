@@ -119,6 +119,8 @@ Ariketak:
 * (PLC_1) Device configuration -> Protection & Security -> (connection mechanisms) Permit access with PUT/GET ? (aztertu)
 * (menu) online -> simulation -> start
 
+TIA-PORTAL proiektu bat egina adibide moduan: [files/tia-portal-project.rar](files/tia-portal-project.rar)
+
 #### S7. Profinet
 - http://snap7.sourceforge.net/
 - https://python-snap7.readthedocs.io/en/latest/
