@@ -171,7 +171,13 @@ Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
 ### Elastic search. Kibana. 
 
-https://www.elastic.co/what-is/elk-stack
+- https://www.elastic.co/what-is/elk-stack
+- https://www.elastic.co/blog/industrial-internet-of-things-iiot-with-the-elastic-stack
+- https://www.elastic.co/blog/introducing-machine-learning-for-the-elastic-stack
+
+### Machine learning
+
+
 
 ### IoT-Cloud MQTT
 
