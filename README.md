@@ -167,6 +167,10 @@ $ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
+### Factory io
+
+https://docs.factoryio.com/tutorials/siemens/setting-up-s7-1200-1500/index.html
+
 ### OPC-UA
 
 ### Elastic search. Kibana. 
