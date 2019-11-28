@@ -146,10 +146,14 @@ TIA portal erabiliz siemens-eko HMI programatu:
 - https://flows.nodered.org/node/node-red-contrib-openplc
 - https://flows.nodered.org/node/node-red-dashboard
 
+- https://flows.nodered.org/node/node-red-contrib-s7comm
+
 Tutorial batzuk:
 - https://www.youtube.com/watch?v=nN9SJfK0iIo
 - https://www.youtube.com/watch?v=M0Mjo0J1X_Q, https://www.youtube.com/watch?v=UKv4_jvPtr4 
 - https://www.youtube.com/watch?v=FCfmWnxQkoc
+- Nodered-S7comm: https://www.youtube.com/watch?v=haV0F-SPGH4
+- 
 
 Raspberry pi:
 ```
