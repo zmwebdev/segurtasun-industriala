@@ -246,4 +246,4 @@ Smart Factory baten proposamena, segurtasuna oinarritzat hartuta fabrika adimend
 
 [incibe-cert_guia_implantacion_honeypot_industrial.pdf](doc/incibe-cert_guia_implantacion_honeypot_industrial.pdf)
 
-- 
+- https://github.com/paralax/awesome-honeypots
