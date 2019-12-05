@@ -139,6 +139,9 @@ TIA portal erabiliz siemens-eko HMI programatu:
 - https://www.youtube.com/watch?v=DLqzIJOi8Z4
 
 rtServer:
+
+https://support.industry.siemens.com/cs/document/109476153/remote-access-to-simatic-hmi-operator-panels?dti=0&lc=en-WW
+
 ![hmi_rtserver.png](img/hmi_rtserver.png)
 
 ### Node RED. HMI
