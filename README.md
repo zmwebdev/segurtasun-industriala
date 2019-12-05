@@ -138,6 +138,9 @@ TIA portal erabiliz siemens-eko HMI programatu:
 - https://www.youtube.com/watch?v=_y7Sj6GHsGA
 - https://www.youtube.com/watch?v=DLqzIJOi8Z4
 
+rtServer:
+![hmi_rtserver.png](img/hmi_rtserver.png)
+
 ### Node RED. HMI
 - https://nodered.org
 - https://nodered.org/docs/getting-started/raspberrypi
