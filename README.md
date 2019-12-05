@@ -67,6 +67,7 @@ led-piztu-zirkuitoa             |  led-piztu-eskema
 
 
 ##### 3 - HMI bat simulatu:
+TIA Portal (ikusi beherago) erabiliz edo Beste aukerak:
 
 https://www.openplcproject.com/reference-installing-scadabr
 
@@ -118,6 +119,8 @@ Ariketak:
 * (PLC_1) Device configuration -> Protection & Security -> (connection mechanisms) Permit access with PUT/GET ? (aztertu)
 * (menu) online -> simulation -> start
 
+TIA-PORTAL proiektu bat egina adibide moduan: [files/tia-portal-project.rar](files/tia-portal-project.rar)
+
 #### S7. Profinet
 - http://snap7.sourceforge.net/
 - https://python-snap7.readthedocs.io/en/latest/
@@ -131,7 +134,9 @@ Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren d
 ![wireshark-s7com-pluss](img/wireshark-s7complus.png)
 
 #### Siemens HMI
-TIA portal erabiliz siemens-eko HMI programatu
+TIA portal erabiliz siemens-eko HMI programatu:
+- https://www.youtube.com/watch?v=_y7Sj6GHsGA
+- https://www.youtube.com/watch?v=DLqzIJOi8Z4
 
 ### Node RED. HMI
 - https://nodered.org
@@ -141,10 +146,14 @@ TIA portal erabiliz siemens-eko HMI programatu
 - https://flows.nodered.org/node/node-red-contrib-openplc
 - https://flows.nodered.org/node/node-red-dashboard
 
+- https://flows.nodered.org/node/node-red-contrib-s7comm
+
 Tutorial batzuk:
 - https://www.youtube.com/watch?v=nN9SJfK0iIo
 - https://www.youtube.com/watch?v=M0Mjo0J1X_Q, https://www.youtube.com/watch?v=UKv4_jvPtr4 
 - https://www.youtube.com/watch?v=FCfmWnxQkoc
+- Nodered-S7comm: https://www.youtube.com/watch?v=haV0F-SPGH4
+- 
 
 Raspberry pi:
 ```
@@ -162,9 +171,26 @@ $ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
+### Factory io
+- https://docs.factoryio.com/tutorials/siemens/sample-s7-1200-1500/index.html
+- https://docs.factoryio.com/tutorials/siemens/setting-up-s7-1200-1500/index.html
+
+Segurtasuna dela eta ondorengoa aukeratu behar da:
+![img/plc-set-get.png](img/plc-set-get.png)
+
 ### OPC-UA
 
 ### Elastic search. Kibana. 
+
+- https://www.elastic.co/what-is/elk-stack
+- https://www.elastic.co/blog/industrial-internet-of-things-iiot-with-the-elastic-stack
+- https://www.elastic.co/blog/introducing-machine-learning-for-the-elastic-stack
+
+### Machine learning
+
+
+
+### IoT-Cloud MQTT
 
 ### ERP
 
@@ -223,4 +249,4 @@ Smart Factory baten proposamena, segurtasuna oinarritzat hartuta fabrika adimend
 
 [incibe-cert_guia_implantacion_honeypot_industrial.pdf](doc/incibe-cert_guia_implantacion_honeypot_industrial.pdf)
 
-- 
+- https://github.com/paralax/awesome-honeypots
