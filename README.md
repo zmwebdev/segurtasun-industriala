@@ -170,9 +170,14 @@ $ sudo systemctl status nodered.service
 $ sudo systemctl start nodered.service
 http://[IP]:1880
 
+## modbus
 ## https://flows.nodered.org/node/node-red-contrib-modbus
 $ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
 
+## profinet
+## https://www.npmjs.com/package/node-red-contrib-s7
+```
+TODO
 ```
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
