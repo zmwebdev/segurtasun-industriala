@@ -163,6 +163,12 @@ Tutorial batzuk:
 
 Raspberry pi:
 ```
+## sarea
+nano /etc/dhcpcd.conf
+
+## ssh
+ssh pi@IP / raspberry
+
 ## https://nodered.org/docs/getting-started/raspberrypi
 
 $ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
@@ -177,7 +183,7 @@ $ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
 ## profinet
 ## https://www.npmjs.com/package/node-red-contrib-s7
 
-TODO
+http://[IP]:1880 -> node-red menu -> user settings -> pallete -> install 
 ```
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
