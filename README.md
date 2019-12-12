@@ -183,7 +183,7 @@ $ sudo npm install -g node-red-contrib-modbus --unsafe-perm --build-from-source
 ## profinet
 ## https://www.npmjs.com/package/node-red-contrib-s7
 
-http://[IP]:1880 -> node-red menu -> user settings -> pallete -> install 
+http://[IP]:1880 -> node-red menu -> manage pallete -> install 
 ```
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
