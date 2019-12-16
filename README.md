@@ -255,6 +255,19 @@ Siemens, PLC simulatuak OpenPLC/raspberry pi (raspberry pi: default user/passwor
 
 ModBus: ```nmap -sS -T3 --top-ports 3000 167.99.132.140``` begiratu ITS kurtsoa.
 
+kali docker:
+```
+docker run -t -i kalilinux/kali-rolling /bin/bash
+apt update
+apt install metasploit-framework
+msfconsole
+exit
+```
+```
+docker commit X kali
+docker run -t -i kali /bin/bash
+```
+
 
 ## 3. Fasea: Smart Factory
 
