@@ -273,6 +273,15 @@ docker commit X kali
 docker run -t -i kali /bin/bash
 ```
 
+Raspberry pi + tshark erabiliz OT sareko trafikoa modu pasiboan irakurri eta ondoren python edo elastic-ekin aztertu:
+
+- https://www.elastic.co/blog/analyzing-network-packets-with-wireshark-elasticsearch-and-kibana
+
+Nessus erabiliz:
+
+- https://www.tenable.com/products/industrial-security
+
+
 
 ## 3. Fasea: Smart Factory
 
