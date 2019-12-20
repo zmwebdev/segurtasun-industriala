@@ -300,3 +300,10 @@ Smart Factory baten proposamena, segurtasuna oinarritzat hartuta fabrika adimend
 [incibe-cert_guia_implantacion_honeypot_industrial.pdf](doc/incibe-cert_guia_implantacion_honeypot_industrial.pdf)
 
 - https://github.com/paralax/awesome-honeypots
+
+
+## Denetatik
+
+- https://hackernoon.com/using-a-vpn-server-to-connect-to-your-aws-vpc-for-just-the-cost-of-an-ec2-nano-instance-3c81269c71c2
+- https://github.com/OpenVPN/openvpn
+- https://wiki.mikrotik.com/wiki/OpenVPN
