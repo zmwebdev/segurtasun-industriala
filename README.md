@@ -265,7 +265,10 @@ ModBus: ```nmap -sS -T3 --top-ports 3000 167.99.132.140``` begiratu ITS kurtsoa.
 nmap maitasunarekin:
 
 ```
+# https://nmap.org/nsedoc/scripts/modbus-discover.html
 nmap -Pn -sT -T2 -n --max-retries 1 --max-hostgroup 1 --max-parallelism 1 --scan-delay 1s -p502 --script modbus-discover
+
+# 
 nmap -Pn -sT -T2 -n --max-retries 1 --max-hostgroup 1 --max-parallelism 1 --scan-delay 1s -p102 --script s7-info 
 ```
 
