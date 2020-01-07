@@ -266,7 +266,7 @@ nmap maitasunarekin:
 
 ```
 nmap -Pn -sT -T2 -n --max-retries 1 --max-hostgroup 1 --max-parallelism 1 --scan-delay 1s -p502 --script modbus-discover
-nmap -Pn -sT -T2 -n --max-retries 1 --max-hostgroup 1 --max-parallelism 1 --scan-delay 1s -p502,102 ... 
+nmap -Pn -sT -T2 -n --max-retries 1 --max-hostgroup 1 --max-parallelism 1 --scan-delay 1s -p102 --script s7-info 
 ```
 
 kali docker:
