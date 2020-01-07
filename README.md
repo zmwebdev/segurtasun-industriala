@@ -154,6 +154,8 @@ https://support.industry.siemens.com/cs/document/109476153/remote-access-to-sima
 
 - https://flows.nodered.org/node/node-red-contrib-s7comm
 
+- https://nodered.org/docs/user-guide/runtime/securing-node-red
+
 Tutorial batzuk:
 - https://www.youtube.com/watch?v=nN9SJfK0iIo
 - https://www.youtube.com/watch?v=M0Mjo0J1X_Q, https://www.youtube.com/watch?v=UKv4_jvPtr4 
