@@ -199,6 +199,12 @@ docker run -it -p 1880:1880 --name mynodered nodered/node-red
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
+
+
+Node-red erabiliz panel bat (SCADA-HMI) sortu:
+
+-https://flows.nodered.org/node/node-red-dashboard
+
 ### Factory io
 - https://docs.factoryio.com/tutorials/siemens/sample-s7-1200-1500/index.html
 - https://docs.factoryio.com/tutorials/siemens/setting-up-s7-1200-1500/index.html
