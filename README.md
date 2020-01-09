@@ -199,7 +199,7 @@ docker run -it -p 1880:1880 --name mynodered nodered/node-red
 
 Node red erabiliz datuak jaso/aldatu (tenperatura, ...)
 
-node-red-s7.png
+![node-red-s7](img/node-red-s7.png)
 
 Node-red erabiliz panel bat (SCADA-HMI) sortu:
 
