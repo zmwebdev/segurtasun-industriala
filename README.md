@@ -176,6 +176,10 @@ ssh pi@IP / raspberry
 $ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 $ sudo systemctl status nodered.service
 $ sudo systemctl start nodered.service
+$ sudo systemctl enable nodered.service
+
+$ node-red-start
+
 http://[IP]:1880
 
 ## modbus
