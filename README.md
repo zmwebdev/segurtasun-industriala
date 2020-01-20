@@ -205,6 +205,21 @@ Node-red erabiliz panel bat (SCADA-HMI) sortu:
 
 -https://flows.nodered.org/node/node-red-dashboard
 
+### node s7
+
+- https://www.npmjs.com/package/node-red-contrib-s7
+- https://github.com/plcpeople/nodeS7
+
+```
+sudo apt install npm
+npm install -g n
+n stable
+
+npm install nodes7
+
+```
+
+
 ### Factory io
 - https://docs.factoryio.com/tutorials/siemens/sample-s7-1200-1500/index.html
 - https://docs.factoryio.com/tutorials/siemens/setting-up-s7-1200-1500/index.html
