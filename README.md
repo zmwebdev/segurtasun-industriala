@@ -219,6 +219,11 @@ npm install nodes7
 
 ```
 
+OHARRA: https://flows.nodered.org/node/node-red-contrib-s7comm instalatuta badugu iadanik nodes7 instalatuta edukiko dugu:
+```
+node
+> ...
+```
 
 ### Factory io
 - https://docs.factoryio.com/tutorials/siemens/sample-s7-1200-1500/index.html
