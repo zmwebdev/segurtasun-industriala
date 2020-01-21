@@ -216,13 +216,17 @@ npm install -g n
 n stable
 
 npm install nodes7
-
 ```
 
 OHARRA: https://flows.nodered.org/node/node-red-contrib-s7comm instalatuta badugu iadanik nodes7 instalatuta edukiko dugu:
 ```
 node
 > ...
+```
+
+Adibidez:
+```
+TODO
 ```
 
 ### Factory io
