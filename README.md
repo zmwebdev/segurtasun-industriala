@@ -370,7 +370,43 @@ Nessus erabiliz:
 
 Smart Factory baten proposamena, segurtasuna oinarritzat hartuta fabrika adimendu bat sortzea. Distributed secured factory using Blockchain.
 
-### 4. HoneyPot
+### Access to factory from AWS using ssh tunneling
+
+[[PLC:192.168.0.1:102]<->[102:Factory_1(raspberry):8888]]<-- -->[8888:AWS:102]<-- -->[Client from Internet]
+
+AWS (internal_IP:172.31.28.118, External_IP:3.4.5.6):
+```
+sudo iptables -t nat -A PREROUTING -p tcp -i eth0 --dport 102 -j DNAT --to-destination 172.31.28.118:8888
+
+sudo vim /etc/ssh/sshd_config
+AllowTcpForwarding   yes
+GatewayPorts  yes
+
+sudo systemctl restart ssh
+```
+
+Factory_1:
+```
+ssh -N -R 8888:192.168.0.1:102 -v -i key.pem ubuntu@3.4.5.6
+edo
+ssh -nNT -R 8888:192.168.0.1:102 -v -i key.pem ubuntu@3.4.5.6
+```
+
+### Distributed factory using ssh tunneling
+
+[Factory_1]<-- -->[AWS]<-- -->[Factory_N]
+
+TODO:
+
+a) ssh tunneling eginez
+
+b) VPN bat eginez
+
+c) Blockchain
+
+5G sarearekin egingo balitz latentzia oso txikia izango luke
+
+## 4. HoneyPot
 
 - https://www.incibe-cert.es/blog/guia-implantacion-honeypot-industrial
 
