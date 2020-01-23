@@ -427,7 +427,13 @@ b) VPN bat eginez
 
 c) Blockchain
 
-5G sarearekin egingo balitz latentzia oso txikia izango luke
+**5G**
+
+5G sarearekin egingo balitz latentzia oso txikia izango luke: Irakurri:
+
+- https://www.raconteur.net/technology/5g-help-manufacturers
+- https://www.newequipment.com/industry-trends/article/22060208/5-ways-5g-will-power-the-smart-factory-of-the-future
+
 
 ## 4. HoneyPot
 
