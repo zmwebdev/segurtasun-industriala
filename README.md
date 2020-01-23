@@ -124,7 +124,44 @@ TIA-PORTAL proiektu bat egina adibide moduan: [files/tia-portal-project.rar](fil
 #### S7. Profinet
 - http://snap7.sourceforge.net/
 - https://python-snap7.readthedocs.io/en/latest/
-- 
+- http://simplyautomationized.blogspot.com/2014/12/raspberry-pi-getting-data-from-s7-1200.html
+
+Install in Ubuntu 18:
+```
+https://python-snap7.readthedocs.io/en/latest/installation.html
+
+sudo add-apt-repository ppa:gijzelaar/snap7
+sudo apt-get update
+sudo apt-get install libsnap7-dev
+
+Errore bat ematen badu "dpkg..."
+sudo fuser -vki /var/lib/dpkg/log
+sudo apt-get install libsnap7-dev
+
+sudo apt install python3-pip
+```
+
+Programa python3:
+```
+import snap7
+plc = snap7.client.Client()
+plc.connect("192.168.0.1",0,1)
+
+area = 0x82    # area for Q memory
+start = 0      # location we are going to start the read
+length = 1     # length in bytes of the read
+mbyte = plc.read_area(area,0,start,length)
+
+bit = 1        # which bit in the Q memory byte we are reading
+print "Q0.1:",get_bool(mbyte,0,bit)
+
+bit = 0        # which bit in the Q memory byte we are reading
+print "Q0.0:",get_bool(mbyte,0,bit)
+
+plc.disconnect()
+```
+
+
 #### Wireshark erabiliz
 Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren dll-a instalatu behar da https://sourceforge.net/projects/s7commwireshark/. .dll fitxategian "Wireshark\plugins\3.0\epan". ondoren filtroetan "s7comm-plus"
 
