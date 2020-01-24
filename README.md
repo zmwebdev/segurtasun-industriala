@@ -144,6 +144,8 @@ sudo apt install python3-pip
 Programa python3:
 ```
 import snap7
+from snap7.util import *
+
 plc = snap7.client.Client()
 plc.connect("192.168.0.1",0,1)
 
@@ -153,10 +155,10 @@ length = 1     # length in bytes of the read
 mbyte = plc.read_area(area,0,start,length)
 
 bit = 1        # which bit in the Q memory byte we are reading
-print "Q0.1:",get_bool(mbyte,0,bit)
+print("Q0.1:{}".format(get_bool(mbyte,0,bit)))
 
 bit = 0        # which bit in the Q memory byte we are reading
-print "Q0.0:",get_bool(mbyte,0,bit)
+print("Q0.0:{}".format(get_bool(mbyte,0,bit)))
 
 plc.disconnect()
 ```
