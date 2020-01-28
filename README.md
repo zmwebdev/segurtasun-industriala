@@ -160,6 +160,12 @@ print("Q0.1:{}".format(get_bool(mbyte,0,bit)))
 bit = 0        # which bit in the Q memory byte we are reading
 print("Q0.0:{}".format(get_bool(mbyte,0,bit)))
 
+# QW3 int value
+start = 3
+length = 2
+mbyte = plc.read_area(area,0,start,length)
+print("QW3:{}".format(get_int(mbyte,0)))
+
 plc.disconnect()
 ```
 
