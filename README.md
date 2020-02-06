@@ -306,6 +306,12 @@ Segurtasuna dela eta ondorengoa aukeratu behar da:
 
 ### OPC-UA
 
+- https://www.unified-automation.com/downloads/opc-ua-servers.html
+- https://support.industry.siemens.com/tf/WW/en/posts/simatic-net-s7-1200-opc-communication/149421?page=0
+- https://opcfoundation.org/products/view/simatic-net-opc-server
+- https://www.unified-automation.com/products/development-tools/uaexpert.html
+
+
 ### Elastic search. Kibana. 
 
 - https://www.elastic.co/what-is/elk-stack
