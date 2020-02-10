@@ -192,6 +192,10 @@ plc.plc.disconnect()
 # QW3?? nola???
 ```
 
+Beste adibide bat Write egiteko:
+
+[Siemens_S7Comm_write_bool.py](files/Siemens_S7Comm_write_bool.py)
+
 
 #### Wireshark erabiliz
 Wireshark erabiliz profinet - S7 protokoloa aztertu. S7comm-plus protokoloaren dll-a instalatu behar da https://sourceforge.net/projects/s7commwireshark/. .dll fitxategian "Wireshark\plugins\3.0\epan". ondoren filtroetan "s7comm-plus"
