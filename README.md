@@ -398,6 +398,7 @@ kali docker:
 ```
 docker run -t -i kalilinux/kali-rolling /bin/bash
 apt update
+apt upgrade
 apt install metasploit-framework
 msfconsole
 exit
