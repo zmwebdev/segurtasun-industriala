@@ -139,6 +139,8 @@ sudo fuser -vki /var/lib/dpkg/log
 sudo apt-get install libsnap7-dev
 
 sudo apt install python3-pip
+
+pip3 install python-snap7
 ```
 
 Programa python3:
