@@ -150,6 +150,7 @@ from snap7.util import *
 
 plc = snap7.client.Client()
 plc.connect("192.168.0.1",0,1)
+#plc.connect("192.168.0.1",0,1,102)  # port number 102
 
 area = 0x82    # area for Q memory
 start = 0      # location we are going to start the read
