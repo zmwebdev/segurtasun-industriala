@@ -219,6 +219,12 @@ https://support.industry.siemens.com/cs/document/109476153/remote-access-to-sima
 
 ![hmi_rtserver.png](img/hmi_rtserver.png)
 
+#### NetToPlcSim
+
+S7-PLCSim Siemens-en app bat da PLC bat simulatzeko. Simulatzaile honetara 102 portutik sartu nahi badugu (beste pc batetik adibidez) http://nettoplcsim.sourceforge.net/ erabili behar da.
+
+![img/nettoplcsim.png](img/nettoplcsim.png)
+
 ### Node RED. HMI
 - https://nodered.org
 - https://nodered.org/docs/getting-started/raspberrypi
