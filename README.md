@@ -323,7 +323,7 @@ Segurtasuna dela eta ondorengoa aukeratu behar da:
 - https://support.industry.siemens.com/tf/WW/en/posts/simatic-net-s7-1200-opc-communication/149421?page=0
 - https://opcfoundation.org/products/view/simatic-net-opc-server
 - https://www.unified-automation.com/products/development-tools/uaexpert.html
-
+- https://support.industry.siemens.com/tf/WW/en/posts/plcsim-nettoplcsim-simaticnet-opc-connection/103472?page=0
 
 ### Elastic search. Kibana. 
 
