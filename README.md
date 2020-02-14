@@ -325,6 +325,7 @@ Segurtasuna dela eta ondorengoa aukeratu behar da:
 - https://www.unified-automation.com/products/development-tools/uaexpert.html
 - https://support.industry.siemens.com/tf/WW/en/posts/plcsim-nettoplcsim-simaticnet-opc-connection/103472?page=0
 - https://support.industry.siemens.com/cs/document/109771672/firmwareversion-v4-4-released-for-s7-1200?dti=0&lc=en-WW
+- https://python-opcua.readthedocs.io/en/latest/index.html
 
 ### Elastic search. Kibana. 
 
