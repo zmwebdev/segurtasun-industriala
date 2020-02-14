@@ -495,4 +495,9 @@ VBoxManage startvm "windows10-TIA-Portal" --type headless
 
 sudo apt-get install remmina remmina-plugin-vnc remmina-plugin-rdp
 ```
+
 remmina->RDP: color depth:16bpp jarri eta gero 'localhost'
+
+## VirtualBox
+
+[Internet/LAN]<--->[WAN:pfsense:OT_LAN(192.168.1.0/24)]<---[Tia-Portal]----[PLCSim(192.168.1.10)]
