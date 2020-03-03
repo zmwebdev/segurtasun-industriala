@@ -328,6 +328,7 @@ Segurtasuna dela eta ondorengoa aukeratu behar da:
 - https://python-opcua.readthedocs.io/en/latest/index.html
 - https://www.youtube.com/watch?v=nXV37QcEjSM
 - https://www.youtube.com/watch?v=X4YMdlJnQMo
+- https://github.com/FreeOpcUa/freeopcua
 
 ### Elastic search. Kibana. 
 
