@@ -489,6 +489,7 @@ c) Blockchain
 
 ## Denetatik
 - https://www.wireguard.com/
+- https://github.com/k4yt3x/wireguard-mesh-configurator
 - https://www.linode.com/docs/networking/vpn/set-up-wireguard-vpn-on-ubuntu/
 - https://medium.com/@mdp/securing-docker-with-wireguard-82ad45004f4d
 **[erabili wireguard openvpn beharrean]**
