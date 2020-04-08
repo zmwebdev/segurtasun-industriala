@@ -490,6 +490,7 @@ c) Blockchain
 ## Denetatik
 - https://www.wireguard.com/
 - https://www.linode.com/docs/networking/vpn/set-up-wireguard-vpn-on-ubuntu/
+- https://medium.com/@mdp/securing-docker-with-wireguard-82ad45004f4d
 **[erabili wireguard openvpn beharrean]**
 - https://hackernoon.com/using-a-vpn-server-to-connect-to-your-aws-vpc-for-just-the-cost-of-an-ec2-nano-instance-3c81269c71c2
 - https://github.com/OpenVPN/openvpn
