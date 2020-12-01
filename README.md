@@ -496,6 +496,7 @@ c) Blockchain
 - https://hackernoon.com/using-a-vpn-server-to-connect-to-your-aws-vpc-for-just-the-cost-of-an-ec2-nano-instance-3c81269c71c2
 - https://github.com/OpenVPN/openvpn
 - https://wiki.mikrotik.com/wiki/OpenVPN
+- https://www.inesem.es/articulos-investigacion/almacen-automatizado-paletizacion-cajas-transelevador
 
 ## RDP
 
